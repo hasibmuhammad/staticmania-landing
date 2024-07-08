@@ -1,0 +1,39 @@
+@font-face {
+  font-family: avenirNext;
+  src: url("./fonts/AvenirNextLTPro-Bold.otf"),
+    url("./fonts/AvenirNextLTPro-It.otf"),
+    url("./fonts/AvenirNextLTPro-Regular.otf");
+}
+
+@font-face {
+  font-family: switzer;
+  src: url("./fonts/Switzer-Variable.ttf"), url("./fonts/Switzer-Italic.ttf"),
+    url("./fonts/Switzer-Thin.ttf");
+}
+
+.bg-circle {
+  background-image: url("./images/Line.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.hero-bg {
+  background-image: url("/images/15.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 380px;
+}
+
+.font-avenir {
+  font-family: avenirNext;
+}
+.font-switzer {
+  font-family: switzer;
+}
+.font-boska {
+  font-family: "Boska", serif;
+}
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
